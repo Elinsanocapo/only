@@ -41,7 +41,7 @@ def download():
         file_extension = 'mp3'
         mime_type = 'audio/mpeg'
     else:
-        ytdlp_cmd.extend(['-f', 'bestvideo+bestaudio/best'])  # Mejor formato de video
+        ytdlp_cmd.extend(['-f', 'best'])  # Mejor formato de video
         file_extension = 'mp4'
         mime_type = 'video/mp4'
 
